@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>Portfolio website</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./images/comp.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero">
+        <div class="hero-overlay">
+        </div>
+        <div class="hero-content">
+            <h1>Sean Robinson</h1>
+            <p>Software Engineer</p>
+        </div>
+    </section>
+    <main>
+        <hr class="divider">
+        <section id="about">
+            <div class="pfp">
+                <img src="./images/Sean_Robinson.jpg" alt="Profile Picture">
+            </div>
+            <div>
+                <h2>About Me</h2>
+                <p>Hello! My name is Sean Robinson. I'm currently pursuing a B.S. degree in Computer Science with a minor in Mathematics.</p>
+                <p>I'm always looking to improve my skills and face new challenges in the area of software engineering. I am willing to work in a team setting and have a desire to keep learning new technology concepts in the foreseeable future of the tech field.</p>
+                <p>Projects that I'm interested in are website development, full-stack app development, and AI game development.</p>
+            </div>
+        </section>
+        <section id="contact">
+            <div>
+                <h2>Contact Me</h2>
+                <form action="process_form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea> 
+
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/sean-robinson-1798601ba/" target="_blank" rel="noopener noreferrer">
+                    <img src="./images/linkedIn.png" alt="LinkedIn Logo">
+                </a>
+                <a href="https://github.com/your-github-username" target="_blank" rel="noopener noreferrer">
+                    <img src="./images/github.png" alt="GitHub Logo">
+                </a>
+                <a href="mailto:seanrobinson718@gmail.com">
+                    <img src="./images/gmail.png" alt="Gmail Logo">
+                </a>
+            </div>
+        </section>
+        <section>
+            <h4>Copyright © 2023 Sean Robinson</h4>
+        </section>
+    </footer>
+</body>
+</html>
